@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/a1exCross/common/pkg/client/db.Tx -o tx.go -n TxMock -p mocks
+//go:generate minimock -i github.com/passsquale/platform_common/pkg/client/db.Tx -o tx.go -n TxMock -p mocks
 
 import (
 	"context"

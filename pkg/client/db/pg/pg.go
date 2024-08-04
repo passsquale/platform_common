@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/a1exCross/common/pkg/client/db"
-	"github.com/a1exCross/common/pkg/client/db/prettier"
+	"github.com/passsquale/platform_common/pkg/client/db"
+	"github.com/passsquale/platform_common/pkg/client/db/prettier"
 
 	"github.com/georgysavva/scany/pgxscan"
 	"github.com/jackc/pgconn"

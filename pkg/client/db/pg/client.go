@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/a1exCross/common/pkg/client/db"
+	"github.com/passsquale/platform_common/pkg/client/db"
 
 	"github.com/jackc/pgx/v4/pgxpool"
 )

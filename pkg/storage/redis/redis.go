@@ -3,7 +3,7 @@ package redis
 import (
 	"time"
 
-	"github.com/a1exCross/common/pkg/storage"
+	"github.com/passsquale/platform_common/pkg/storage"
 
 	"github.com/go-redis/redis"
 )

@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/a1exCross/common/pkg/client/db.Pinger -o pinger.go -n PingerMock -p mocks
+//go:generate minimock -i github.com/passsquale/platform_common/pkg/client/db.Pinger -o pinger.go -n PingerMock -p mocks
 
 import (
 	"context"

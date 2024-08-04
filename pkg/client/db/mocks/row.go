@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/a1exCross/common/pkg/client/db.Row -o row.go -n RowMock -p mocks
+//go:generate minimock -i github.com/passsquale/platform_common/pkg/client/db.Row -o row.go -n RowMock -p mocks
 
 import (
 	"sync"

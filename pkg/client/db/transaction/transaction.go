@@ -3,8 +3,8 @@ package transaction
 import (
 	"context"
 
-	"github.com/a1exCross/common/pkg/client/db"
-	"github.com/a1exCross/common/pkg/client/db/pg"
+	"github.com/passsquale/platform_common/pkg/client/db"
+	"github.com/passsquale/platform_common/pkg/client/db/pg"
 
 	"github.com/jackc/pgx/v4"
 	"github.com/pkg/errors"

@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/a1exCross/common/pkg/client/db.Transactor -o transactor.go -n TransactorMock -p mocks
+//go:generate minimock -i github.com/passsquale/platform_common/pkg/client/db.Transactor -o transactor.go -n TransactorMock -p mocks
 
 import (
 	"context"
@@ -10,7 +10,7 @@ import (
 	mm_atomic "sync/atomic"
 	mm_time "time"
 
-	mm_db "github.com/a1exCross/common/pkg/client/db"
+	mm_db "github.com/passsquale/platform_common/pkg/client/db"
 	"github.com/gojuno/minimock/v3"
 	"github.com/jackc/pgx/v4"
 )

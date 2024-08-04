@@ -2,7 +2,7 @@
 
 package mocks
 
-//go:generate minimock -i github.com/a1exCross/common/pkg/storage.Redis -o redis.go -n RedisMock -p mocks
+//go:generate minimock -i github.com/passsquale/platform_common/pkg/storage.Redis -o redis.go -n RedisMock -p mocks
 
 import (
 	"sync"
