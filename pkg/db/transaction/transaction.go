@@ -3,8 +3,8 @@ package transaction
 import (
 	"context"
 	"github.com/jackc/pgx/v4"
-	"github.com/passsquale/platform_platform_common/pkg/db"
-	"github.com/passsquale/platform_platform_common/pkg/db/pg"
+	"github.com/passsquale/platform_common/pkg/db"
+	"github.com/passsquale/platform_common/pkg/db/pg"
 	"github.com/pkg/errors"
 )
 

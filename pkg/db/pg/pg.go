@@ -7,8 +7,8 @@ import (
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-	"github.com/passsquale/platform_platform_common/pkg/db"
-	"github.com/passsquale/platform_platform_common/pkg/db/prettier"
+	"github.com/passsquale/platform_common/pkg/db"
+	"github.com/passsquale/platform_common/pkg/db/prettier"
 	"log"
 )
 
